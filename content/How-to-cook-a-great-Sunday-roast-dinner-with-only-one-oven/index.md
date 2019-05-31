@@ -10,7 +10,6 @@ categories:
   - Sunday Lunch
 
 published: true
-canonicalLink: https://medium.com/@henricook/how-to-cook-a-great-sunday-roast-dinner-with-only-one-oven-62683a1b04ac
 ---
 
 The ultimate guide to cooking a Sunday roast alone with only one oven

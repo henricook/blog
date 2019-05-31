@@ -9,7 +9,6 @@ categories:
   - Software
 
 published: true
-canonicalLink: https://medium.com/@henricook/sm961-nvme-drive-windows-install-no-drivers-found-e474acbad3a6
 ---
 
 This is a niche post, I had a world of hurt trying to reinstall windows on a machine where it had worked previously with my PCIe NVMe drive. Windows install would start but no drivers were ever found.

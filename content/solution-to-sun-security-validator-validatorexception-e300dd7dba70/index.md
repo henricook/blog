@@ -8,7 +8,6 @@ categories:
   - Ubuntu
 
 published: true
-canonicalLink: https://medium.com/@henricook/solution-to-sun-security-validator-validatorexception-e300dd7dba70
 ---
 
 Solution to “sun.security.validator.ValidatorException: No trusted certificate found” when installing SBT on a new (Ubuntu) system:

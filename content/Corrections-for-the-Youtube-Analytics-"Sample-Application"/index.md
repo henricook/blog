@@ -7,7 +7,6 @@ categories:
   - Nodejs
 
 published: true
-canonicalLink: https://medium.com/@henricook/corrections-for-the-youtube-analytics-sample-application-2fc224b9aeda
 ---
 
 ![](./asset-1.jpeg)

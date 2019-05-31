@@ -7,7 +7,6 @@ categories:
   - Meteor
 
 published: true
-canonicalLink: https://medium.com/@henricook/my-favourite-git-aliases-ad6f2b9928f5
 ---
 
 I take these git aliases from project to project with me, here they are in case they’re good for you too!

@@ -8,7 +8,6 @@ categories:
   - Nest
 
 published: true
-canonicalLink: https://medium.com/@henricook/my-first-generation-battery-powered-nest-protect-has-a-dead-battery-and-even-with-new-ones-in-it-702da4f724c9
 ---
 
 This happened to me. I tried two brand new sets of AAs (x6) and it still just beeped saying it was out of power.

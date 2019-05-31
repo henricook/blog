@@ -7,7 +7,6 @@ categories:
   - G Suite
 
 published: true
-canonicalLink: https://medium.com/@henricook/how-to-remove-on-behalf-of-when-sending-via-gsuite-feafabd2b040
 ---
 
 If you have an aliased domain you use to send mail as part of your Google Apps account and are annoyed by the “on behalf of” that appears when recipients read your messages, this is for you.

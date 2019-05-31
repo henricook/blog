@@ -8,7 +8,6 @@ categories:
   - Ubuntu
 
 published: true
-canonicalLink: https://medium.com/@henricook/boot-hangs-after-grub-on-ubuntu-18-04-742e6067dd87
 ---
 
 Running nvidia-390 or -396 on Ubuntu 18.04 (Bionic) and 17.10 on a Windows dual boot machine I would sometimes encounter a blank screen after grub, especially when rebooting from Windows and attempting to boot to linux.

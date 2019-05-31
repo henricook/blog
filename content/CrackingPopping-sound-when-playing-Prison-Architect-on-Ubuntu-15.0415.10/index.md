@@ -8,7 +8,6 @@ categories:
   - Steam
 
 published: true
-canonicalLink: https://medium.com/@henricook/cracking-popping-sound-when-playing-prison-architect-on-ubuntu-15-04-15-10-7c08f4dbf5b5
 ---
 
 On a new build of Ubuntu 15.10, whenever playing Prison Architect there was a constant crackling/popping over the top of the game music and effects.

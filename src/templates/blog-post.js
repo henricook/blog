@@ -19,8 +19,7 @@ export default function PageTemplate({ data: { mdx, site }, pageContext }) {
       <SEO
         title={mdx.frontmatter.title}
         description={mdx.frontmatter.description}
-        canonicalLink={mdx.frontmatter.canonicalLink}
-        keywords={mdx.frontmatter.categories || []}
+                keywords={mdx.frontmatter.categories || []}
         meta={[
           {
             name: 'twitter:label1',

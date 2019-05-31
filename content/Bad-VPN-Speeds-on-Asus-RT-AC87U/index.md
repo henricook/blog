@@ -7,7 +7,6 @@ categories:
   - Privacy
 
 published: true
-canonicalLink: https://medium.com/@henricook/bad-vpn-speeds-on-asus-rt-ac87u-e4cc7b01c3f9
 ---
 
 Tried NordVPN, Private Internet Access (PIA) and others
