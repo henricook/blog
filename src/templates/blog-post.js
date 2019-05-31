@@ -118,7 +118,6 @@ export const pageQuery = graphql`
         description
         categories
         date(formatString: "MMMM DD, YYYY")
-        canonicalLink
       }
       code {
         body
