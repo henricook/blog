@@ -9,18 +9,18 @@ const configuration = {
   // It should complete the sentence: Written by Henri Cook ...
   shortBio: '',
   // a longer bio showing on the landing page of the blog
-  bio: `Software Developer, Tech Enthusiast, Humanist.`,
+  bio: `Software Developer, Tech Enthusiast, Humanist`,
   author: 'Henri Cook',
-  githubUrl: 'https://github.com/',
+  githubUrl: 'https://github.com/henricook/blog',
   // replace this by the url where your website will be published
-  siteUrl: 'http://localhost:8000',
+  siteUrl: 'https://blog.henricook.com',
   social: {
     // leave the social media you do not want to appear as empty strings
     twitter: 'henricook',
-    medium: '@henricook',
-    facebook: '',
-    github: '',
-    linkedin: '',
+    medium: '',
+    facebook: 'henri.cook',
+    github: 'henricook',
+    linkedin: 'henricook',
     instagram: '',
   },
 }
