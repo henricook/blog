@@ -61,7 +61,7 @@ export default function PageTemplate({ data: { mdx, site }, pageContext }) {
                 mdx.fields.slug
               }index.md`}
             >
-              Edit this post on GitHub
+              See this post on GitHub
             </a>
           </small>
           <hr
