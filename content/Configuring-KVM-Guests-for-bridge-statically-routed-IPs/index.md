@@ -1,5 +1,6 @@
 ---
 title: "Configuring KVM Guests (In a bridge fashion) on a network using statically routed IPs"
+description: "I recently co-located a new server to find that I was given one ‘main ip’ on subnet X and all my additional IPs were on subnet Y. This has happened in the past..."
 date: "2009-02-20T12:00:00.000Z"
 categories: 
   - Sysadmin

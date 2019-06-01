@@ -1,5 +1,6 @@
 ---
 title: "Using Steam from inside a university firewall (w/Tor + Sockscap)"
+description: "Our university firewall is shockingly restrictive, this meant that recently I couldn’t even download a game that I bought using Steam (this is my first time using the Steam system)..."
 date: "2009-02-15T12:00:00.000Z"
 categories: 
   - Sysadmin
