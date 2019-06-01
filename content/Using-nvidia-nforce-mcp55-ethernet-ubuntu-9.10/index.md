@@ -1,6 +1,6 @@
 ---
 title: "Using Nvidia/Nforce (MCP55) on-board ethernet with Ubuntu 9.10 (Karmic)"
-description: "Ever since Ubuntu Gutsy i’ve had issues with the wired ethernet (MCP55) on my ABit IN-9 32X Max – there are two problems, i’ve summated them and the way that I work around them below..."
+description: "Ever since Ubuntu Gutsy i’ve had issues with the wired ethernet (MCP55) on my ABit IN-9 32X Max – there are two problems, i’ve summated them and the way that I work around them below"
 date: "2010-04-05T12:00:00.000Z"
 categories: 
   - Ubuntu
