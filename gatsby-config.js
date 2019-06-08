@@ -9,7 +9,7 @@ const configuration = {
   // It should complete the sentence: Written by Henri Cook ...
   shortBio: '',
   // a longer bio showing on the landing page of the blog
-  bio: `Software Developer, Tech Enthusiast, Humanist`,
+  bio: `Software Engineer, Tech Enthusiast, Humanist`,
   author: 'Henri Cook',
   githubUrl: 'https://github.com/henricook/blog',
   // replace this by the url where your website will be published
