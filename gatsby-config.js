@@ -95,5 +95,29 @@ module.exports = {
       resolve: `gatsby-plugin-feed`,
       options: mdxFeed,
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-29119129-1",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Enables Google Optimize using your container Id
+        optimizeId: "",
+        // Enables Google Optimize Experiment ID
+        experimentId: "",
+        // Set Variation ID. 0 for original 1,2,3....
+        variationId: "",
+        // Any additional create only fields (optional)
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "henricook.com",
+      },
+    },
   ],
 }
