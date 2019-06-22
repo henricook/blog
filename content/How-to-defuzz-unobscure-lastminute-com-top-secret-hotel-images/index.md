@@ -18,14 +18,18 @@ The answer (at least at time of writing) is yes. Here's the guide:
   
   - To get the URL of this image right-click -> inspect to open the raw HTML in your browser's development tools window
   
-  - Expand the `<div class="slider__gallery">` tag and all child divs within it until you get to the image URL - hosted at _res.cloudinary.com:
+  - Expand the `<div class="slider__gallery">` tag and all child divs within it until you get to the image URL - hosted at `res.cloudinary.com`:
   ![HTML to show image url](./lastminute-html-for-fuzzed.png)
   
-  - Taking the URL shown in the screenshot as an example. '//res.cloudinary.com/lastminute/image/upload/t_OSE_det_tsh_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg' - prepend _https://_ and view it. https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_tsh_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg
+  - Taking the URL shown in the screenshot as an example. `//res.cloudinary.com/lastminute/image/upload/t_OSE_det_tsh_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg` - prepend `https://` and view it. 
   
-  - It's fuzzed, as you might expect. Luckily defuzzing isn't super hard. In the URL you'll notice this section `/t_OSE_det_tsh_gall/` - the _tsh_ indicates this is a Top Secret Hotel link. To defuzz the image take the same link, remove `_tsh_ and profit. 
+     https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_tsh_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg
   
-  - The new defuzzed link is: https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg
+  - It's fuzzed, as you might expect. Luckily defuzzing isn't super hard. In the URL you'll notice this section `/t_OSE_det_tsh_gall/` - the _tsh_ indicates this is a Top Secret Hotel link. To defuzz the image take the same link, remove '_tsh_' and profit. 
+  
+  - The new defuzzed link from this example is: 
+  
+     https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg
   
   - You can now right-click and 'search google for this image' (reverse image search) and it's highly likely that the top results in image search will be for the hotel you're looking for.
   
