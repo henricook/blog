@@ -14,12 +14,12 @@ So we asked the question, can you defuzz a top secret hotel image and find out w
 
 The answer (at least at time of writing) is yes. Here's the guide:
 
-  - Open the top secret hotel's page on lastminute.com, you'll see a fuzzed image at the top that looks like this: ![Fuzzed lastminute image](images/lastminute-fuzzed.jpg)
+  - Open the top secret hotel's page on lastminute.com, you'll see a fuzzed image at the top that looks like this: ![Fuzzed lastminute image](./lastminute-fuzzed.jpg)
   
   - To get the URL of this image right-click -> inspect to open the raw HTML in your browser's development tools window
   
   - Expand the `<div class="slider__gallery">` tag and all child divs within it until you get to the image URL - hosted at _res.cloudinary.com:
-  ![HTML to show image url](images/lastminute-html-for-fuzzed.png)
+  ![HTML to show image url](./lastminute-html-for-fuzzed.png)
   
   - Taking the URL shown in the screenshot as an example. '//res.cloudinary.com/lastminute/image/upload/t_OSE_det_tsh_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg' - prepend _https://_ and view it. https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_tsh_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg
   
