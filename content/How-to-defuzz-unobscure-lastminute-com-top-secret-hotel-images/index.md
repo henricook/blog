@@ -21,7 +21,7 @@ The answer (at least at time of writing) is yes. Here's the guide:
   - Expand the `<div class="slider__gallery">` tag and all child divs within it until you get to the image URL - hosted at `res.cloudinary.com`:
   ![HTML to show image url](./lastminute-html-for-fuzzed.png)
   
-  - Taking the URL shown in the screenshot as an example. `//res.cloudinary.com/lastminute/image/upload/t_OSE_det_tsh_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg` - prepend `https://` and view it. 
+  - Taking the URL shown in the screenshot as an example. `//res.cloudinary.com/lastminute/image/upload/t_OSE_det_tsh_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg`, prepend `https://` and view it. 
   
      https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_tsh_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg
   
