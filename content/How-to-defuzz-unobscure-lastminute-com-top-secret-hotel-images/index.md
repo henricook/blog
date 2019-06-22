@@ -31,6 +31,8 @@ The answer (at least at time of writing) is yes. Here's the guide:
   
      https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall/q_auto/v1430218174/Foyer_Normandie_-_Hotel_du_Collectionneur_duvo7n.jpg
   
+  ![Defuzzed lastminute image](./lastminute-defuzzed.jpg)
+  
   - You can now right-click and 'search google for this image' (reverse image search) and it's highly likely that the top results in image search will be for the hotel you're looking for.
   
 You'll notice that in this case the name of the hotel was actually in our demo link - the _Foyer Normandie Hotel du Collectionneur_. This is not always the case (hence the advice to reverse image search).
