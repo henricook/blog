@@ -38,4 +38,6 @@ Removed /etc/systemd/system/dbus-org.freedesktop.resolve1.service.
 # sudo systemctl stop systemd-resolved
 ```
 
+Since you've nuked the built in DNS service head over to `/etc/resolv.conf` and change `nameserver 127.0.0.53` to something else, such as your local router's IP or 8.8.8.8 (Google) or 1.1.1.1 (Cloudflare).
+
 Retry streisand install, done.
